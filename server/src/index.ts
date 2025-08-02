@@ -5,6 +5,7 @@ import mongoose, { set } from "mongoose";
 import http from "http";
 import { Server } from "socket.io";
 import { setupServer } from "./socket";
+import prisma from "./utils/prisma_client";
 
 const app = express();
 
